@@ -71,15 +71,8 @@ main{
 
     height: 50vh;
 
-    
-
 }
 
-div{
-    font-size: 2rem;
-    display: grid;
-    place-items: center;
-}
 
 @media (max-width:1200px){
     body{

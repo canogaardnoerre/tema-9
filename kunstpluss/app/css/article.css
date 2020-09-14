@@ -1,0 +1,22 @@
+h1, h2, h3{
+    font-size: 83px;
+}
+
+h1{
+    text-align: left;
+    word-spacing: 10em;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    cursor:  pointer;
+    right: 0;
+    position: fixed;
+    top: -22px;
+}
+
+h3:hover{
+    color: #EB5E28;
+}
