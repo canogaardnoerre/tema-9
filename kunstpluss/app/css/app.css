@@ -1,53 +1,28 @@
-body{background:#00f}
+*, html {
+  padding: 0;
+  margin: 0; }
 
-html, body {
-    margin:0;
-    padding: 0;
-    font-family: Arial, 'Open Sans';
-    background: #eee;
-    background-color: orange;
-}
+body {
+  background: white; }
 
-*{
-    box-sizing: border-box;
-}
+header {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: center;
+  text-align: center; }
 
-main{
-    display: grid;
-    gap: .2rem;
-    justify-content:flex-start;
-    padding: .2rem;
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  margin: 15rem; }
 
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr) );
+div {
+  gap: 5rem; }
 
-    height: 50vh;
+img {
+  max-width: 300px; }
 
-}
-
-div{
-    background-color:white;
-    font-size: 2rem;
-    display: grid;
-    place-items: center;
-}
-
-@media (max-width:1200px){
-    body{
-        background-color: orange;
-    }
-    h1{
-        font-size: 4rem;
-    }
-}
-
-@media (max-width:800px){
-    body{
-        background-color: orangered;
-    }
-    h1.small{
-        display: block;
-    }
-    h1.large{
-        display: none;
-    }
-}
+p {
+  padding: 5rem; }
