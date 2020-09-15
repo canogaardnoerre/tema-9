@@ -20,3 +20,16 @@ h3{
 h3:hover{
     color: #EB5E28;
 }
+
+.question{
+    text-align: left;
+    color: #212529;
+    line-height: 1.4em;
+    text-align: justify;
+    min-width: 450px; 
+    max-width: 650px; 
+    text-align: left; 
+    padding: 5px; 
+    margin: 0px;
+    overflow: hidden;
+}
