@@ -1,5 +1,7 @@
 body{
     background: #F8F9FA;
+    position: relative;
+    left: 50px;
 }
 
 html, body {

@@ -33,3 +33,7 @@ h3:hover{
     margin: 0px;
     overflow: hidden;
 }
+
+p{
+    columns: 2;
+}
