@@ -1,28 +1,45 @@
-*, html {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0; }
 
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  font-size: inherit; }
+
 body {
-  background: white; }
+  background: #F8F9FA;
+  color: #212529;
+  padding: 4rem; }
 
 header {
-  height: 30vh;
+  width: 100vw;
+  height: 20rem;
   display: grid;
   grid-template-columns: auto auto auto;
-  place-items: center;
+  place-items: top center;
   text-align: center; }
+
+h1 {
+  padding: 0; }
+
+#vei {
+  margin-top: 10rem; }
+
+#tilbake {
+  margin-top: 5rem; }
 
 main {
   display: grid;
   grid-template-columns: auto auto;
-  place-content: center;
-  margin: 15rem; }
+  place-items: center; }
 
 div {
-  gap: 5rem; }
+  width: 400px; }
 
 img {
-  max-width: 300px; }
+  max-width: 350px; }
 
 p {
-  padding: 5rem; }
+  padding: 1rem;
+  width: 400px; }
