@@ -38,7 +38,7 @@ h3:hover{
     color: #EB5E28;
 }
 
-p, .p1{
+p .p1{
     word-spacing: 5px;
     overflow: hidden;
     margin-left: 40em;
