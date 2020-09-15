@@ -38,14 +38,15 @@ h3:hover{
     color: #EB5E28;
 }
 
-p {
+p, .p1{
     word-spacing: 5px;
     overflow: hidden;
     margin-left: 40em;
     margin-right: 10em;
     line-height: 2em;
-
 }
+
+
 
 
 .startside, .item1 img, .item2 img, .item3 img, .item4 img, .item5 img{
